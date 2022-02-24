@@ -1,6 +1,6 @@
 import tweepy
 
-bear_token = 'AAAAAAAAAAAAAAAAAAAAAGPBWgEAAAAAedocddgJGmU%2FY5VlTRIPQSkME6M%3DV05hdBJfmWVwWWZxSEXFqrSCbRcnLwSAf57vpz337OYgxXKKEx'
+bear_token = 'token'
 client = tweepy.Client(bear_token)
 tweets_fields_list = ['created_at', 'id', 'text']
 
