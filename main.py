@@ -6,8 +6,7 @@ import time
 import pandas as pd
 
 # To set your environment variables in your terminal run the following line:
-os.environ['BEARER_TOKEN'] = 'AAAAAAAAAAAAAAAAAAAAAGPBWgEAAAAAedocddgJGmU%2FY5VlTRIPQSkME6M' \
-                             '%3DV05hdBJfmWVwWWZxSEXFqrSCbRcnLwSAf57vpz337OYgxXKKEx '
+os.environ['BEARER_TOKEN'] = ''
 bearer_token = os.environ.get("BEARER_TOKEN")
 search_url = "https://api.twitter.com/2/tweets/search/recent"
 
